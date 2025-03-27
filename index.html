@@ -35,7 +35,7 @@
   </script>
   <style>
     h5 {
-      color: #acef5fa3;
+      color: #e5e5e5;
     }
   </style>
 </head>
@@ -89,14 +89,14 @@
       </div>
     </nav>
     <!-- Banner section -->
-    <section>
+    <section class="mt-10">
       <div class="flex flex-col justify-center items-center">
         <!-- Image -->
         <div>
           <img src="assets/banner.png" alt="">
         </div>
         <!-- text -->
-        <div class="w-4/5 mx-auto text-center">
+        <div class="lg:w-4/5 mx-auto text-center">
           <h1 class="lg:text-6xl text-4xl font-bold leading-snug ">A barn house of this design
             has a striking appearance
           </h1>
@@ -114,7 +114,59 @@
     </section>
   </header>
   <!-- main -->
-  <main>
+  <main class="bg-[#e5e5e5] mt-24">
+    <!-- container used here -->
+    <div class="md:container md:mx-auto">
+      <!-- About us section -->
+      <section class="pt-24 relative flex lg:flex-row flex-col justify-between items-center gap-9">
+        <!-- text -->
+        <div class="flex-1 lg:text-start text-center ">
+          <div class="absolute top-8 -left-16 hidden lg:block">
+            <img src="assets/Vector.png" alt="">
+          </div>
+          <button class="shadow-md bg-white py-1 px-5 rounded-3xl text-gray-700"><i
+              class="fa-solid fa-arrow-right mr-2 "></i>About
+            Us</button>
+          <h2 class="lg:text-6xl text-3xl font-bold my-5 lg">We design thoughtful, liveable spaces</h2>
+          <p>We create thoughtfully designed, functional, and stylish spaces that enhance comfort, reflect personality,
+            and
+            seamlessly blend aesthetics with everyday living for a perfect home.s</p>
+          <!-- card main -->
+          <div class="flex lg:flex-col md:flex-row flex-col gap-5 lg:gap-0">
+            <!-- card-1 -->
+            <div class="shadow-md bg-base-100 rounded-lg flex justify-between items-center p-5
+                       gap-2 my-2
+                       ">
+
+              <div>
+                <img src="assets/commercial.png" alt="">
+              </div>
+              <div class="flex-1">
+                <h4 class="text-lg font-medium">Commercial</h4>
+                <p class="text-gray-500">Innovative commercial spaces designed for functionality and long-term
+                  business success.</p>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div class="shadow-md bg-base-100 rounded-lg flex justify-between items-center p-5
+                       gap-2 my-2">
+              <div>
+                <img src="assets/residential.png" alt="">
+              </div>
+              <div class="flex-1">
+                <h4 class="text-lg font-medium">Residential</h4>
+                <p class="text-gray-500">Beautifully designed residential spaces that prioritize comfort and modern
+                  living.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- image -->
+        <div class="flex-1 lg:ml-20">
+          <img src="assets/Rectangle.png" alt="">
+        </div>
+      </section>
+    </div>
 
   </main>
   <!-- footer -->
