@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House Design Website</title>
+  <!-- Font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Google font cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- tailwind and diasyui cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Tailwind CSS Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            primary: '#ABEF5F',
+            secondary: '#111111',
+            body: '#f8f6f3',
+            accent: '#6a9739',
+            body_neutral: '#153333',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    h5 {
+      color: #acef5fa3;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="md:container md:mx-auto">
+    <!-- navbar -->
+    <nav>
+      <div class="navbar p-0 py-3">
+        <div class="navbar-start">
+          <i class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full text-center -rotate-45"></i><span
+            class="ml-2 text-2xl font-bold">Rinterio</span>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-gray-600">
+            <li class="text-black font-medium"><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="flex flex-row justify-between items-center   gap-5">
+            <div class="md:block hidden">
+              <button class=" shadow-md py-3 px-4 rounded-full "><i
+                  class="fa-solid fa-magnifying-glass text-gray-500"></i></button>
+              <button class="shadow-md py-3 px-4 rounded-full mx-3">
+                <i class="fa-solid fa-cart-shopping text-gray-500"></i>
+              </button>
+              <button class="bg-[#ABEF5F]  btn rounded-3xl py-5 px-5"><span class="font-bold text-lg">Book
+                  Consult</span><i
+                  class="fa-solid fa-arrow-right bg-[#000] p-2 rounded-full text-center -rotate-45 text-white"></i></button>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden shadow-sm rounded-full">
+              <i class="fa-solid fa-bars "></i>
+            </div>
+            <ul tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-gray-600 right-0 gap-2">
+              <li class="text-black font-medium"><a href="">Home</a></li>
+              <li><a href="">Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a href="">Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Banner section -->
+    <section>
+      <div class="flex flex-col justify-center items-center">
+        <!-- Image -->
+        <div>
+          <img src="assets/banner.png" alt="">
+        </div>
+        <!-- text -->
+        <div class="w-4/5 mx-auto text-center">
+          <h1 class="lg:text-6xl text-4xl font-bold leading-snug ">A barn house of this design
+            has a striking appearance
+          </h1>
+          <p class="mt-6 mb-7 text-gray-600 text-center w-3/4 mx-auto">A barn house with this unique design stands out
+            with its striking appearance, blending rustic charm with modern
+            elegance. Featuring spacious interiors, high ceilings, and natural materials and
+            a timeless
+            aesthetic for a perfect countryside retreat.</p>
+          <button class="bg-[#acef5f93] py-2 px-6 rounded-3xl hover:bg-[#ABEF5F] md:w-52 w-3/4"><span
+              class="text-lg font-medium ">View
+              Details</span><i
+              class="fa-solid fa-arrow-right bg-[#ABEF5F] p-1 rounded-full text-center ml-2 -rotate-45"></i></button>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- main -->
+  <main>
+
+  </main>
+  <!-- footer -->
+  <footer>
+
+  </footer>
+</body>
+
+</html>
