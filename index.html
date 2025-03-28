@@ -52,7 +52,7 @@
           <i class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full text-center -rotate-45"></i><span
             class="ml-2 text-2xl font-bold">Rinterio</span>
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <div class="navbar-center hidden">
           <ul class="menu menu-horizontal px-1 text-gray-600">
             <li class="text-black font-medium"><a href="">Home</a></li>
             <li><a href="">Services</a></li>
@@ -107,7 +107,8 @@
             elegance. Featuring spacious interiors, high ceilings, and natural materials and
             a timeless
             aesthetic for a perfect countryside retreat.</p>
-          <button class="bg-[#acef5f93] py-2 px-6 rounded-3x md:w-52 w-3/4"><span class="text-lg font-medium ">View
+          <button class="bg-[#acef5f93] hover:hover:bg-lime-500 py-2 px-6 rounded-3xl md:w-52 w-3/4"><span
+              class="text-lg font-medium ">View
               Details</span><i
               class="fa-solid fa-arrow-right bg-[#ABEF5F] p-1 rounded-full text-center ml-2 -rotate-45"></i></button>
         </div>
@@ -115,7 +116,7 @@
     </section>
   </header>
   <!-- main -->
-  <main class="bg-[#e5e5e5] mt-24">
+  <main class="bg-[#e5e5e5] mt-24 px-2">
     <!-- container used here -->
     <div class="md:container md:mx-auto px-3">
       <!-- About us section -->
@@ -214,7 +215,7 @@
       <section class="py-24 md:container mx-auto px-2">
         <div class="text-center">
           <button
-            class="shadow-md bg-[#acef5f8e] hover:bg-[#ABEF5F] hover:text-white hover:duration-300 py-1 px-5 rounded-3xl text-gray-700"><i
+            class="shadow-md bg-[#acef5f8e] hover:hover:bg-lime-600 hover:text-white hover:duration-300 py-1 px-5 rounded-3xl text-gray-700"><i
               class="fa-solid fa-arrow-right mr-2 "></i>Explore our Latest works</button>
           <h2 class="lg:text-5xl text-3xl font-bold my-5 lg">Our Latest Portfolio</h2>
           <p class="mb-5 text-center lg:w-3/5 mx-auto">Explore our latest portfolio featuring innovative designs, modern
@@ -251,9 +252,12 @@
             <img class="object-contain" src="assets/img3.png" alt="">
           </div>
 
-          <div class="flex md:flex-row flex-col items-center gap-4 shadow-md md:p-6 p-9 px-24 rounded-lg flex-1">
-            <img class="object-contain" src="assets/img4.png" alt="commercial image">
-            <div class="space-y-3">
+          <div
+            class="flex lg:flex-row md:flex-col flex-col items-center gap-4 shadow-md md:p-6 p-9 px-24 rounded-lg flex-1">
+            <div>
+              <img class="object-contain" src="assets/img4.png" alt="commercial image">
+            </div>
+            <div class="space-y-3 ">
               <h4 class="text-gray-800 font-medium text-xl">Commercial</h4>
               <p class="text-gray-600 mb-4">Expertly designed commercial spaces that prioritize functionality,
                 aesthetics, productivity, and long-term success for
@@ -270,18 +274,122 @@
       </section>
     </div>
     <!-- Read Our Articles and News section -->
-    <section class="my-24 md:container md:mx-auto">
+    <section class="py-24 md:container md:mx-auto">
       <div class="text-center">
         <button
-          class="shadow-md bg-[#acef5f8e] hover:bg-[#ABEF5F] hover:text-white hover:duration-300 py-1 px-5 rounded-3xl text-gray-700"><i
+          class="shadow-md bg-[#acef5f8e] hover:hover:bg-lime-600 hover:text-white hover:duration-300 py-1 px-5 rounded-3xl text-gray-700"><i
             class="fa-solid fa-arrow-right mr-2 "></i>Rinterio News</button>
         <h2 class="lg:text-5xl text-3xl font-bold my-5 lg">Read Our Articles and News</h2>
         <p class="mb-5 text-center lg:w-3/5 mx-auto">Stay updated with our latest articles and news. Explore expert
           insights, design trends, and industry updates to inspire
           your next project and enhance your knowledge.</p>
       </div>
+      <!-- card -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="card bg-base-100 md:w-11/12 w-2/3 mx-auto shadow-sm p-6">
+          <figure>
+            <img src="assets/article1.png" alt="home" />
+          </figure>
+          <div class="card-body">
+            <div class="flex items-center justify-between text-gray-500 text-sm mt-2">
+              <span>📅 July 14, 2024</span>
+              <span>👤 By Admin</span>
+            </div>
+            <h2 class="text-2xl md:text-xl font-bold">Modern Glass Villa in Nature</h2>
+            <p>A stunning glass house surrounded by lush greenery, offering peace, relaxation, and a breathtaking
+              view.
+            </p>
+            <div class="card-actions">
+              <button><span class="text-lg font-medium ">Read More</span><i
+                  class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full text-center ml-2 -rotate-45"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 md:w-11/12 w-2/3 mx-auto shadow-sm p-6">
+          <figure>
+            <img src="assets/article2.png" alt="home" />
+          </figure>
+          <div class="card-body">
+            <div class="flex items-center justify-between text-gray-500 text-sm mt-2">
+              <span>📅 July 14, 2024</span>
+              <span>👤 By Admin</span>
+            </div>
+            <h2 class="text-2xl md:text-xl font-bold">Luxury Beachside Mansion</h2>
+            <p>An elegant seaside mansion with stunning ocean views, modern architecture, and luxurious living spaces.
+            </p>
+            <div class="card-actions">
+              <button><span class="text-lg font-medium ">Read More</span><i
+                  class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full text-center ml-2 -rotate-45"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 md:w-11/12 w-2/3 mx-auto shadow-sm p-6">
+          <figure>
+            <img src="assets/article3.png" alt="home" />
+          </figure>
+          <div class="card-body">
+            <div class="flex items-center justify-between text-gray-500 text-sm mt-2">
+              <span>📅 July 14, 2024</span>
+              <span>👤 By Admin</span>
+            </div>
+            <h2 class="text-2xl md:text-xl font-bold">Tropical Wooden House</h2>
+            <p>A cozy wooden retreat in a tropical paradise, blending nature, comfort, and traditional craftsmanship
+              beautifully.
+            </p>
+            <div class="card-actions">
+              <button><span class="text-lg font-medium ">Read More</span><i
+                  class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full text-center ml-2 -rotate-45"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <div class="h-2 bg-white"></div>
+    <!-- input/Login section -->
 
+    <div class="bg-[url('./assets/bg.jpg')] bg-cover bg-center mt-1 px-2">
+      <div class="md:container md:mx-auto py-24">
+        <div class="text-center">
+          <button
+            class="shadow-md bg-lime-200 hover:hover:bg-lime-600 hover:text-white hover:duration-300 py-1 px-5 rounded-3xl text-gray-700"><i
+              class="fa-solid fa-arrow-right mr-2 "></i>Let’s Connect</button>
+          <h2 class="lg:text-5xl text-3xl font-bold my-5 lg">Let’s Discuss Next Project</h2>
+          <p class="mb-5 text-center lg:w-3/5 mx-auto">Alright, for our next project, let's aim for a practical,
+            innovative solution that addresses a real-world problem,
+            focusing on user-friendly design.</p>
+        </div>
+        <!-- form -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:w-11/12 mx-auto w-4/5 ">
+          <div class="w-full">
+            <input type="text" placeholder="First Name"
+              class="input input-bordered w-full p-8 rounded-3xl bg-white border-none " />
+          </div>
+          <div class="w-full">
+            <input type="text" placeholder="Last Name"
+              class="input input-bordered w-full p-8 rounded-3xl bg-white border-none " />
+          </div>
+          <div class="w-full">
+            <input type="tel" placeholder="Phone Number"
+              class="input input-bordered w-full p-8 rounded-3xl bg-white border-none " />
+          </div>
+          <div class="w-full">
+            <input type="email" placeholder="Email Number"
+              class="input input-bordered w-full p-8 rounded-3xl bg-white border-none " />
+          </div>
+          <div class="col-span-1 md:col-span-2 w-full">
+            <textarea class="textarea textarea-bordered w-full p-8 rounded-3xl bg-white border-none "
+              placeholder="Write your message here" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="mt-10 flex justify-center">
+          <button class="btn w-3/5 mx-auto bg-lime-500 hover:bg-lime-600 font-bold rounded-full px-12 py-6 text-lg">
+            Send Mail<i
+              class="fa-solid fa-arrow-right text-slate-300 rounded-full text-xl p-2 bg-black -rotate-45 ml-2 "></i>
+
+          </button>
+        </div>
+      </div>
+    </div>
   </main>
   <!-- footer -->
   <footer>
